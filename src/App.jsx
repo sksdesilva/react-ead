@@ -3,6 +3,7 @@ import { Cart, FlexContent, Footer, Hero, Navbar, Sales, Stories } from './compo
 import { heroapi, popularsales, toprateslaes, highlight, sneaker, story, footerAPI } from './data/data.js';
 import Login from './components/user/login.jsx';
 import ProductManagement from './components/Store/ProductManagement.jsx';
+import InventoryManagement from './components/Inventory/InventoryManagement.jsx'
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
       {/* <Navbar/>
       <Cart /> */}
       {/* <Login /> */}
-      <ProductManagement />
+      {/* <ProductManagement /> */}
+      <InventoryManagement/>
       {/* <main className='flex flex-col gap-16 relative'>
         <Hero heroapi={heroapi} />
         <Sales endpoint={popularsales} ifExists />
