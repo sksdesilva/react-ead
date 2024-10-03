@@ -153,4 +153,8 @@ font-size: 1.2rem;
 }
 
 
+.MuiTypography-root {
+  font-family: 'Poppins', sans-serif !important;
+}
+
 }
